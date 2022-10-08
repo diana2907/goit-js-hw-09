@@ -66,6 +66,7 @@ startBtn.addEventListener('click', () => {
 
     if (difference < 1000) {
       clearInterval(timerId);
+      Notify.info('Time is up');
     }
   }, 1000);
 });
